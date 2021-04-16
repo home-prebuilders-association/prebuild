@@ -21,7 +21,7 @@
     "node-api"
   ],
   "dependencies": {
-    "cmake-js": "~5.2.0",
+    "cmake-js": "^5.3.2",
     "detect-libc": "^1.0.3",
     "each-series-async": "^1.0.1",
     "execspawn": "^1.0.1",
