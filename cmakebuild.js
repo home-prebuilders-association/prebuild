@@ -5,7 +5,7 @@ function runCmake (opts, target, cb) {
   which('cmake-js', function (err, cmakeJsPath) {
     if (err) return cb(err)
 
-    var args = ['rebuild']
+    var args = ['build']
     if (opts.runtime !== 'napi') args.push('--runtime-version=' + target)
     args.push('--arch=' + opts.arch)
     if (opts.runtime !== 'napi') args.push('--runtime=' + opts.runtime)
